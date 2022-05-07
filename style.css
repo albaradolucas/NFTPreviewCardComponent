@@ -33,7 +33,7 @@ main {
 .card {
     position: relative;
     width: 310px;
-    height: 520px;
+    height: 530px;
     background-color: var(--bg-card-blue);
     border-radius: 12px;
     box-shadow: 0 0 8px var(--bg-card-blue);
@@ -75,6 +75,11 @@ img {
     color: var(--soft-blue);
 }
 
+.counter {
+    display: inline-flex;
+
+}
+
 .counterEth {
     display: flex;
     position: relative;
@@ -88,5 +93,60 @@ img {
 }
 
 .counterEth img {
+    top: 3px;
+    height: 17px;
     width: 10px;
+}
+
+.counterDays {
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 60px;
+}
+
+.counterDays p {
+    margin-left: 8px;
+    color: var(--soft-blue);
+    font-weight: 400;
+}
+
+.counterDays img {
+    width: 20px;
+    height: 20px;
+}
+
+hr {
+    position: relative;
+    top: 23px;
+    width: 275px;
+}
+
+.user {
+    position: relative;
+    display: flex;
+    top: 35px;
+}
+
+.userName {
+    color: var(--soft-blue);
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+span {
+    font-weight: 400;
+}
+
+.user img {
+    display: absolute;
+    border: 1px solid #fbfbfe;
+    border-radius: 50%;
+    width: 30px;
+    right: 30px;
+}
+
+.attribution {
+    margin-top: 50px;
 }
